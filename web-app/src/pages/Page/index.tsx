@@ -85,15 +85,6 @@ const Page: React.FC = () => {
             </ItemList>
           </Item>
         ))}
-      <Item>
-        <ItemTitle>Mensagem do Presidente</ItemTitle>
-        <ItemList>
-          <ItemListMessagem>
-            <FaBuilding size={18} />
-            <p>O papel do novo centro da juventude para todos!</p>
-          </ItemListMessagem>
-        </ItemList>
-      </Item>
     </Container>
   );
 };
